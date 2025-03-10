@@ -1,0 +1,42 @@
+/* Feature Sections */
+.feature-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 10%;
+    background-color: white;
+}
+
+/* Reverse Layout for Even Sections */
+.feature-section.reverse {
+    flex-direction: row-reverse;
+}
+
+/* Feature Text */
+.feature-text {
+    max-width: 50%;
+}
+
+.feature-text h2 {
+    font-size: 32px;
+    color: #1a1a1a;
+    margin-bottom: 15px;
+}
+
+.feature-text p {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+/* Feature Image */
+.feature-image {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.feature-image img {
+    width: 100%;
+    max-width: 600px;
+}
